@@ -1,0 +1,75 @@
+.key-container {
+  align-items: center;
+  display: flex;
+  height: 25%;
+  justify-content: center;
+  transition: background-color 0.3s linear, border-color 0.1s linear;
+}
+
+.key-container:hover {
+  cursor: pointer;
+}
+
+.operator-key {
+  background-color: var(--action-key-color);
+  border-style: solid;
+  border-color: #c0c0c0 #373737 #373737 #c0c0c0;
+  width: 92%;
+  height: calc(91% / 4);
+  margin: 0 2% 4% 2%;
+}
+
+.operator-key:hover,
+.operator-key-active {
+  background-color: var(--action-key-color-hover);
+}
+
+.operator-key:active,
+.operator-key-active {
+  border-color: var(--action-key-color-hover);
+}
+
+.number-key {
+  background-color: var(--number-key-color);
+  border-style: solid;
+  border-color: #c0c0c0 #373737 #373737 #c0c0c0;
+  width: calc(92% / 3);
+  height: calc(91% / 4);
+  margin: 0 0 1% 1%;
+}
+
+.number-key:hover,
+.number-key-active {
+  background-color: var(--number-key-color-hover);
+}
+
+.number-key:active,
+.number-key-active {
+  border-color: var(--number-key-color-hover);
+}
+
+.submit-key {
+  background-color: var(--submit-key-color);
+  border-style: solid;
+  border-color: #ffb325 #373737 #373737 #ffb325;
+  height: 84%;
+  width: 98%;
+  margin: 1% auto auto;
+}
+
+.submit-key:hover,
+.submit-key-active {
+  background-color: var(--submit-key-color-hover);
+}
+
+.submit-key:active,
+.submit-key-active {
+  border-color: var(--submit-key-color-hover);
+}
+
+.key-value {
+  color: var(--key-text-color);
+  font-family: var(--main-font);
+  font-size: var(--key-text-size);
+  font-weight: var(--key-text-weight);
+}

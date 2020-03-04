@@ -1,0 +1,12 @@
+.calculator-container {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--calculator-background-color1),
+    var(--calculator-background-color2)
+  );
+  border-width: 7px;
+  border-style: solid;
+  border-color: #c2b59c #49443b #49443b #c2b59c;
+  height: var(--calculator-height);
+  width: var(--calculator-width);
+}

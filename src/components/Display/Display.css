@@ -1,0 +1,20 @@
+.display-container {
+  align-items: center;
+  background: var(--display-background-color);
+  display: flex;
+  height: 20%;
+  margin: 2% auto;
+  width: 94%;
+  border-style: solid;
+  border-color: #373737 #c0c0c0 #c0c0c0 #373737;
+}
+
+.display-value {
+  color: var(--display-text-color);
+  font-size: var(--display-text-size);
+  font-family: var(--main-font);
+  font-weight: var(--display-text-weight);
+  margin-left: auto;
+  margin-right: 4%;
+  overflow: hidden;
+}

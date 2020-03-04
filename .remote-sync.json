@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": true,
+  "hostname": "10.0.0.50",
+  "port": "22",
+  "target": "/opt/reactjs/react-calculator/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    "node_modules/**"
+  ],
+  "username": "root",
+  "keyfile": "\\\\sofile01\\Home\\a.geisler\\Documents\\#key\\achimg.ppk",
+  "passphrase": "elia2006",
+  "watch": [],
+  "transport": "scp"
+}

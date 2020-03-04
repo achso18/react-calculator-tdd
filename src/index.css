@@ -1,0 +1,67 @@
+/*
+app variables
+*/
+:root {
+  /* bg colors */
+  --calculator-background-color1: #c9c0b2;
+  --calculator-background-color2: #8b8171;
+  --display-background-color: #1d1f1f;
+  --action-key-color: #545454;
+  --action-key-color-hover: #2a2a2a;
+  --number-key-color: #696969;
+  --number-key-color-hover: #3f3f3f;
+  --submit-key-color: #d18800;
+  --submit-key-color-hover: #aa6e00;
+
+  /* font */
+  --main-font: "Obitron", sans-serif;
+
+  /* font colors */
+  --display-text-color: #23e000;
+  --key-text-color: #d3d3d3;
+
+  /* font sizes */
+  --display-text-size: 4em;
+  --key-text-size: 3em;
+
+  /* font weights */
+  --display-text-weight: 400;
+  --key-text-weight: 700;
+
+  /* calculator dimensions */
+  --calculator-height: 72%;
+  --calculator-width: 36%;
+}
+
+/*
+media query for smaller screens
+*/
+@media screen and (max-width: 1400px) {
+  :root {
+    /* calculator dimensions */
+    --calculator-height: 72%;
+    --calculator-width: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  :root {
+    /* font sizes */
+    --display-text-size: 10em;
+    --key-text-size: 6em;
+
+    /* calculator dimensions */
+    --calculator-height: 100%;
+    --calculator-width: 100%;
+  }
+}
+
+/*
+app CSS sheet
+*/
+
+body,
+div,
+p {
+  margin: 0;
+  padding: 0;
+}
